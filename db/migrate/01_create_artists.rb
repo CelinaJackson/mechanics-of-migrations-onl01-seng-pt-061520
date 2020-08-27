@@ -8,7 +8,6 @@ class CreateArtists < ActiveRecord::Migration[5.2]
  
   def down
   end
-  
 
   sql = <<-SQL
      CREATE TABLE IF NOT EXISTS artists (
